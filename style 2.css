@@ -1,42 +1,43 @@
 .header {
+ border: 1px solid #000000;
+ background:lime;   
+float: CENTER;    
+color:black;                 
 float: left;
-position: fixed;
-width: 600px;
+width: 1000px;
 height: 30px;
-}
-
-.index {
-float: left;
+border-radius: 5px;
 position: fixed;
-margin-top: 30px;
-width: 100px;
-height: 500px;
+margin-left: 10px;
 }
 
 .text {
-float: left;
-position: fixed;
+float: CENTER;
+margin-left: 20px;
 margin-top: 30px;
-margin-left: 100px;
-width: 600px;
-height: 30px;
+width: 1000px;
+height: 60px;
+position: fixed;
 }
+
 
 .spam {
 float: right;
-position: fixed;
 margin-top: 30px;
-margin-left: 700px;
+margin-left: 1100px;
 width: 600px;
 height: 30px;
+position: fixed;
 }
 
 .opus {
-float: CENTER;
-position: fixed;
-margin-top: 250px;
+background-image:url("ans.jpg");
+border-radius: 5px;
+overflow-y: scroll;
+margin-top: 150px;
 margin-left: 50px;
 margin-right: 50px;
 width: 1000px;
-height: 1000px;
+height: 450px;
+position: fixed;
 }
